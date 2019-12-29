@@ -1,0 +1,7 @@
+[user]
+	email = max.devjs@gmail.com
+	name = maxdevjs
+[color]
+	ui = auto
+[credential]
+  helper = cache --timeout=31556926
