@@ -1,0 +1,3 @@
+[submodule "/home/max/.config/polybar"]
+	path = /home/max/.config/polybar
+	url = https://github.com/maxdevjs/dotfiles-polybar-config
