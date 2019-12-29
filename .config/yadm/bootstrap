@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+CONFIG_DIR_YADM=$HOME/.config/yadm/
+
+if [[ `lsb_release -si` = 'VoidLinux' ]]
+then 
+  echo yes;
+  . $CONFIG_DIR_YADM/bootstrap-files/void-install
+fi
+
+#. $CONFIG_DIR_YADM/bootstrap-files/nvim
+
