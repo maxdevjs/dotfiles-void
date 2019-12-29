@@ -1,6 +1,6 @@
 [submodule ".config/polybar"]
 	path = .config/polybar
 	url = https://github.com/maxdevjs/dotfiles-polybar-config
-[submodule "/home/max/.config/bspwm"]
-	path = /home/max/.config/bspwm
+[submodule ".config/bspwm"]
+	path = .config/bspwm
 	url = https://github.com/maxdevjs/dotfiles-bspwm-config
