@@ -7,6 +7,6 @@
 [submodule ".config/sxhkd"]
 	path = .config/sxhkd
 	url = https://github.com/maxdevjs/dotfiles-sxhkd-config
-[submodule ".zim"]
-	path = .zim
+[submodule ".config/zsh/.zim"]
+	path = .config/zsh/.zim
 	url = https://github.com/zimfw/zimfw
