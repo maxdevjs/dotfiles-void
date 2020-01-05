@@ -10,3 +10,6 @@
 [submodule ".config/zsh/.zim"]
 	path = .config/zsh/.zim
 	url = https://github.com/zimfw/zimfw
+[submodule ".config/tmux"]
+	path = .config/tmux
+	url = https://github.com/maxdevjs/dotfiles-tmux-config
