@@ -8,5 +8,6 @@ then
   . $CONFIG_DIR_YADM/bootstrap-files/void-install
 fi
 
+#. $CONFIG_DIR_YADM/bootstrap-files/tpm
 #. $CONFIG_DIR_YADM/bootstrap-files/nvim
 

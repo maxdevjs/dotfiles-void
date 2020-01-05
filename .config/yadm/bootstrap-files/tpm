@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+echo Begin tpm setup
+
+if ! [ -x $(command -v tmux > /dev/null 2>&1) ]
+then
+  echo TODO: convert it to submodule
+  #git clone https://github.com/maxdevjs/dotfiles-tmux-config $HOME/.config/tmux
+fi
+
+if [[ ! -d $HOME/.tmux/plugins/tpm ]]
+then
+  echo installing tpm
+  git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+fi
+
+echo End tpm setup
