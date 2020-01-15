@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+echo "ZSH - linking relevant files to $HOME"
+ln -s $HOME/.config/zsh/.Xmodmap $HOME/
+ln -s $HOME/.config/zsh/.zshenv_to_link_in_home $HOME/.zshenv

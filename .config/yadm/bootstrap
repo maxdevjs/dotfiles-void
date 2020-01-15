@@ -4,10 +4,10 @@ CONFIG_DIR_YADM=$HOME/.config/yadm/
 
 if [[ `lsb_release -si` = 'VoidLinux' ]]
 then 
-  echo yes;
+  echo "yadm - VoidLinux bootstrap"
   . $CONFIG_DIR_YADM/bootstrap-files/void-install
-  echo linking
-  ln -s $HOME/.config/zsh/.Xmodmap $HOME/
+  . $CONFIG_DIR_YADM/bootstrap-files/zsh
+  
 fi
 
 #. $CONFIG_DIR_YADM/bootstrap-files/tpm
