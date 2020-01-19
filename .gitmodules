@@ -17,5 +17,5 @@
 	path = .tmux/plugins/tpm
 	url = https://github.com/tmux-plugins/tpm
 [submodule ".config/zsh"]
-	path = .config/zsh
+	path = .config/shells/zsh
 	url = https://github.com/maxdevjs/dotfiles-zsh-config
