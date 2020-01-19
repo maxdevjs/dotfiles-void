@@ -7,8 +7,8 @@
 [submodule ".config/sxhkd"]
 	path = .config/sxhkd
 	url = https://github.com/maxdevjs/dotfiles-sxhkd-config
-[submodule ".config/zsh/.zim"]
-	path = .config/zsh/.zim
+[submodule ".config/shells/zsh/.zim"]
+	path = .config/shells/zsh/.zim
 	url = https://github.com/zimfw/zimfw
 [submodule ".config/tmux"]
 	path = .config/tmux
@@ -16,6 +16,6 @@
 [submodule ".tmux/plugins/tpm"]
 	path = .tmux/plugins/tpm
 	url = https://github.com/tmux-plugins/tpm
-[submodule ".config/zsh"]
+[submodule ".config/shells/zsh"]
 	path = .config/shells/zsh
 	url = https://github.com/maxdevjs/dotfiles-zsh-config
